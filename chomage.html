@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>Dataviz</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2 bg-light" id="sidebar">
+          <h3 class="text-center py-3">Menu</h3>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./top10formations.html"
+                >Top 10 formations</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./effectifNeoBacRegion2021.html"
+                >Effectifs des néo bacheliers</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./effectifNeoBacAdmis.html"
+                >Effectifs des néo bacheliers admis</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./chomage.html"
+                >Taux de chômage par rapport à l'offre</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-9" id="main-content">
+          <h3 class="text-center py-3">
+            Taux de chômage par rapport à l'offre
+          </h3>
+          <center>
+            <div>
+              <iframe
+                width="1142"
+                height="468"
+                seamless
+                frameborder="0"
+                scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSuaijMYnv-GRIMhD1ydH4nwsOvpkTRCle9PKQFeFdejpnJdl0LFo3OAyACy6McBNL7jXNczaxPBWa5/pubchart?oid=305540633&amp;format=interactive"
+              ></iframe>
+            </div>
+          </center>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

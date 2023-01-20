@@ -1,0 +1,12 @@
+#sidebar,
+#main-content {
+  height: auto;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+#home {
+  margin: 30px;
+}
